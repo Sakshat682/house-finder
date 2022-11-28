@@ -728,6 +728,10 @@ button {
 .lisitingsList {
   padding: 0;
 }
+.formLatLngflex{
+  display: flex;
+  flex-direction: column;
+}
 
 .formLabel {
   font-weight: 600;
