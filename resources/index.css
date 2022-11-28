@@ -11,9 +11,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f2f4f8;
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  padding-bottom: 85px;
 }
 
 a {
@@ -80,7 +78,6 @@ button {
   top: -3%;
   right: -2%;
 }
-
 .editIcon {
   cursor: pointer;
   position: absolute;
@@ -267,7 +264,7 @@ button {
 }
 
 .socialLogin {
-  margin-top: 1rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -279,7 +276,7 @@ button {
   justify-content: center;
   align-items: center;
   padding: 0.75rem;
-  margin: 1rem;
+  margin: 1.5rem;
   width: 3rem;
   height: 3rem;
   background-color: #ffffff;
@@ -292,7 +289,7 @@ button {
 }
 
 .registerLink {
-  margin-top: 2rem;
+  margin-top: 4rem;
   color: #00cc66;
   font-weight: 600;
   text-align: center;
@@ -314,9 +311,6 @@ button {
 .exploreCategoryHeading {
   font-weight: 700;
 }
-.exploreHeading{
-  font-size: large;
-}
 
 .exploreCategoryHeading {
   margin-top: 3rem;
@@ -333,7 +327,6 @@ button {
 
 .swiperSlideDiv {
   position: relative;
-  z-index: 100;
   width: 100%;
   height: 100%;
 }
@@ -350,20 +343,8 @@ button {
   left: 0;
   font-weight: 600;
   max-width: 90%;
-  font-size: 1rem;
-  background-color: rgba(0, 0, 0, 0.8);
-  padding: 0.5rem;
-}
-.SlideText {
-  position: absolute;
-  color: #ffffff;
-  background-color: rgba(26, 25, 25, 0.8);
-  font-weight: 600;
   font-size: 1.25rem;
-  /* margin-left: 15%;
-  margin-right: 15%; */
-  right: 0vw;
-  bottom: 0vh;
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 0.5rem;
 }
 @media (min-width: 1024px) {
@@ -434,13 +415,13 @@ button {
 .categoryListingImg {
   width: 30%;
   height: 100px;
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   object-fit: cover;
 }
 @media (min-width: 1024px) {
   .categoryListingImg {
     width: 19%;
-    height: 150px;
+    height: 217px;
   }
 }
 
