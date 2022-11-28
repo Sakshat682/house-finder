@@ -49,7 +49,7 @@ function Listing() {
           <SwiperSlide key={index}>
             <div >
               <center>
-                <img src={listing.imageUrls[index]} alt='' height="280vh" width="100%" />
+                <img src={listing.imageUrls[index]} alt='' display= "block" height="280vh" width="100%" style={{objectFit: 'cover'}}/>
               </center>
             </div>
           </SwiperSlide>

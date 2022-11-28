@@ -59,7 +59,7 @@ function Slider() {
                 
                 <center>
                     <p className='SlideText'>{data.name}</p>
-                    <img src={data.imageUrls[0]} alt='' height="250vh" width="100%" />
+                    <img src={data.imageUrls[0]} alt='' display= "block" height="280vh" width="100%" style={{objectFit: 'cover'}}/>
                 </center>
               </div>
             </SwiperSlide>
